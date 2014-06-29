@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Appenders>
+    <File name="bitcoinAPI" fileName="bitcoinAPI.log" append="true">
+      <PatternLayout pattern="%d{dd-MM-yyyy-HH:mm:ss}-%-5p-%t-%C.%M:%m%n"/>
+    </File>
+    <Console name="STDOUT" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{dd-MM-yyyy-HH:mm:ss}-%t-%C-%M-%x-%-5p-%-10c:%m%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Logger name="org.apache.log4j.xml" level="all">
+      <AppenderRef ref="bitcoinAPI"/>
+    </Logger>
+    <Root level="all">
+      <AppenderRef ref="bitcoinAPI"/>
+    </Root>
+  </Loggers>
+</Configuration>

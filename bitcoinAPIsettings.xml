@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Hi</comment>
+	<entry key="rpcuser">user</entry>
+	<entry key="rpcpassword">password</entry>
+	<entry key="rpcurl">127.0.0.1</entry>
+	<entry key="rpcport">8332</entry>
+	<entry key="walletpassphrase">walletpassword</entry>
+</properties>
